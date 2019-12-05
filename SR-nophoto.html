@@ -10,19 +10,22 @@
   
   <a-scene embedded arjs=“sourceType: webcam; debugUIEnabled: false”>
     <a-assets>
-       
-      <img id="sunflower-AR" src="https://cdn.glitch.com/2dde47b8-753e-4704-be4f-f8fc2a82672a%2Fgoogle-russian-AR.png?v=1575561449666"></img>
+       <a-asset-item id="formroller-obj" src="https://cdn.glitch.com/af36d36f-4261-42ac-8e21-1af0e2790647%2Fformroller1.obj?v=1573155964108"></a-asset-item>
+        <a-asset-item id="formroller-mtl" src="https://cdn.glitch.com/af36d36f-4261-42ac-8e21-1af0e2790647%2Fformroller1.mtl?v=1573155966892"></a-asset-item>
+        <a-asset-item id="formroller" src="https://cdn.glitch.com/af36d36f-4261-42ac-8e21-1af0e2790647%2Ffoamroller.jpg?v=1573155958735"></a-asset-item>
+      <a-asset-item id="formroller-gltf" src="https://cdn.glitch.com/af36d36f-4261-42ac-8e21-1af0e2790647%2Ffoamroller-ar.gltf?v=1573160301634"></a-asset-item>
+      <img id="no-photo" src="https://cdn.glitch.com/e7d73703-008a-48ab-8b88-0609a86dd20b%2F126-512.png?v=1574196619782"></img>
       
   
     </a-assets>
   
       
 <!--     <a-box color="yellow" position='0 0.5 0' gps-entity-place="latitude: <38.646712>; longitude: <-90.303510>"/> -->
-    <a-marker-camera type="pattern" url="https://cdn.glitch.com/2dde47b8-753e-4704-be4f-f8fc2a82672a%2Fpattern-SR-flower-marker.patt?v=1575561170097">
+    <a-marker-camera type="pattern" url="https://cdn.glitch.com/e7d73703-008a-48ab-8b88-0609a86dd20b%2Fpattern-AR-marker3.patt?v=1574365900959">
       <a-image
-               src="#sunflower-AR"
-               scale="3 3 0"
-               position="0 0 0"
+               src="#no-photo"
+               scale="5 5 0"
+               position="0 0 2"
                rotation="-90 0 0"
                ></a-image>
       
